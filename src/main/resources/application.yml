@@ -1,0 +1,26 @@
+server:
+  port: 8062
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3302/loginboard
+    username: root
+    password: '0719'
+  thymeleaf:
+    cache: false
+  jpa:
+    open-in-view: true
+    #  show-sql: true
+    format_sql: true
+    hibernate:
+      ddl-auto: update
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+#logging.level:
+#  org.hibernate.sql: debug
+#  org.hibernate.type: trace
+
+
+
